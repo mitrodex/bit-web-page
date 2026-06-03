@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Becher IT Systems | Webentwicklung & Softwarelösungen in Pinneberg</title>
+  <meta name="description" content="Becher IT Systems entwickelt Webseiten, Webanwendungen, Schnittstellen und individuelle Softwarelösungen für Unternehmen in Pinneberg, Hamburg und deutschlandweit.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Becher IT Systems">
+  <meta name="theme-color" content="#0e2034">
+  <link rel="canonical" href="https://becher-it.systems/">
+  <link rel="icon" href="assets/logo-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="Becher IT Systems">
+  <meta property="og:title" content="Becher IT Systems | Webentwicklung & Softwarelösungen">
+  <meta property="og:description" content="Webseiten, Webanwendungen, Schnittstellen und individuelle Softwarelösungen für Unternehmen in Pinneberg, Hamburg und deutschlandweit.">
+  <meta property="og:url" content="https://becher-it.systems/">
+  <meta property="og:image" content="https://becher-it.systems/assets/logo-full.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Becher IT Systems | Webentwicklung & Softwarelösungen">
+  <meta name="twitter:description" content="Webseiten, Webanwendungen, Schnittstellen und individuelle Softwarelösungen für Unternehmen.">
+  <meta name="twitter:image" content="https://becher-it.systems/assets/logo-full.png">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "@id": "https://becher-it.systems/#business",
+      "name": "Becher IT Systems",
+      "url": "https://becher-it.systems/",
+      "logo": "https://becher-it.systems/assets/logo-full.png",
+      "image": "https://becher-it.systems/assets/logo-full.png",
+      "description": "Becher IT Systems entwickelt Webseiten, Webanwendungen, Schnittstellen und individuelle Softwarelösungen für Unternehmen.",
+      "founder": {
+        "@type": "Person",
+        "name": "Tim Becher"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "An der Mühlenau 10c",
+        "postalCode": "25421",
+        "addressLocality": "Pinneberg",
+        "addressCountry": "DE"
+      },
+      "email": "info@becher-it.systems",
+      "telephone": "+49 151 54881686",
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Pinneberg"
+        },
+        {
+          "@type": "City",
+          "name": "Hamburg"
+        },
+        {
+          "@type": "Country",
+          "name": "Deutschland"
+        }
+      ],
+      "priceRange": "$$",
+      "sameAs": [],
+      "knowsAbout": [
+        "Webentwicklung",
+        "Webdesign",
+        "Webanwendungen",
+        "Softwareentwicklung",
+        "API-Entwicklung",
+        "Hosting",
+        "Wartung"
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Webentwicklung",
+            "description": "Moderne Webseiten, Landingpages und Unternehmensauftritte."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Individuelle Softwareentwicklung",
+            "description": "Webanwendungen, Portale, interne Tools und Schnittstellen."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Hosting und Wartung",
+            "description": "Technischer Betrieb, Deployment, Updates und Betreuung."
+          }
+        }
+      ]
+    }
+  </script>
+  <style>
+    :root {
+      --bg:#f7f9fc; --card:#ffffff; --text:#111827; --muted:#64748b; --line:#e2e8f0;
+      --navy:#0e2034; --navy2:#142b45; --blue:#1f64a6; --blue2:#2f83d2; --soft:#edf5fd;
+      --radius:22px; --shadow:0 20px 55px rgba(14,32,52,.10);
+    }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; background:var(--bg); color:var(--text); line-height:1.55; }
+    a { color:inherit; text-decoration:none; }
+    .wrap { width:min(1120px, calc(100% - 36px)); margin:0 auto; }
+    header { position:sticky; top:0; z-index:20; background:rgba(247,249,252,.84); backdrop-filter:blur(16px); border-bottom:1px solid rgba(226,232,240,.85); }
+    .nav { height:74px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+    .brand { display:flex; align-items:center; gap:12px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color:var(--navy); }
+    .brand img { width:44px; height:44px; object-fit:contain; }
+    nav { display:flex; align-items:center; gap:24px; color:var(--muted); font-size:14px; }
+    nav a:hover { color:var(--navy); }
+    .btn { display:inline-flex; align-items:center; justify-content:center; min-height:46px; padding:0 18px; border-radius:999px; background:var(--navy); color:white; font-weight:700; border:1px solid var(--navy); box-shadow:0 10px 24px rgba(14,32,52,.18); }
+    .btn.secondary { background:white; color:var(--navy); border-color:var(--line); box-shadow:none; }
+    .hero { padding:82px 0 64px; overflow:hidden; }
+    .heroGrid { display:grid; grid-template-columns:1.05fr .95fr; gap:54px; align-items:center; }
+    .eyebrow { display:inline-flex; gap:8px; align-items:center; padding:8px 12px; border:1px solid var(--line); border-radius:999px; color:var(--muted); background:white; font-size:13px; }
+    .dot { width:8px; height:8px; border-radius:50%; background:var(--blue2); }
+    h1 { margin:22px 0 18px; font-size:clamp(42px, 6vw, 72px); line-height:.98; letter-spacing:-.06em; color:var(--navy); }
+    .lead { margin:0; max-width:650px; color:#415064; font-size:clamp(18px, 2vw, 21px); }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:32px; }
+    .facts { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-top:40px; }
+    .fact { padding:18px; border:1px solid var(--line); border-radius:18px; background:white; }
+    .fact strong { display:block; color:var(--navy); font-size:18px; }
+    .fact span { color:var(--muted); font-size:13px; }
+    .visual { position:relative; min-height:520px; border-radius:34px; background:linear-gradient(145deg,#fff,#edf4fb); border:1px solid var(--line); box-shadow:var(--shadow); padding:34px; display:grid; place-items:center; }
+    .visual:before { content:""; position:absolute; inset:28px; border-radius:28px; background:linear-gradient(140deg, rgba(47,131,210,.14), transparent 58%); }
+    .logoCard { position:relative; width:min(370px, 80%); aspect-ratio:1; border-radius:32px; background:#fff; display:grid; place-items:center; box-shadow:0 24px 70px rgba(14,32,52,.12); border:1px solid var(--line); }
+    .logoCard img { width:72%; height:72%; object-fit:contain; }
+    .float { position:absolute; border:1px solid var(--line); background:rgba(255,255,255,.88); backdrop-filter:blur(10px); border-radius:18px; padding:16px; box-shadow:0 14px 35px rgba(14,32,52,.10); color:var(--muted); font-size:14px; }
+    .float b { display:block; color:var(--navy); margin-bottom:2px; }
+    .f1 { left:28px; bottom:44px; } .f2 { right:26px; top:42px; }
+    section { padding:74px 0; }
+    .sectionHead { display:flex; justify-content:space-between; gap:24px; align-items:flex-start; margin-bottom:28px; }
+    h2 { margin:0; font-size:clamp(30px, 4vw, 46px); line-height:1.04; letter-spacing:-.04em; color:var(--navy); }
+    .sectionHead p { margin:0; max-width:520px; color:var(--muted); }
+    .grid4 { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
+    .grid3 { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:24px; box-shadow:0 10px 26px rgba(14,32,52,.04); }
+    .icon { width:44px; height:44px; border-radius:14px; background:var(--soft); display:grid; place-items:center; color:var(--blue); font-weight:900; margin-bottom:20px; }
+    h3 { margin:0 0 10px; color:var(--navy); font-size:20px; letter-spacing:-.02em; }
+    .card p { margin:0; color:var(--muted); }
+    .dark { background:var(--navy); color:white; border-radius:34px; padding:46px; overflow:hidden; position:relative; }
+    .dark:after { content:""; position:absolute; width:360px; height:360px; border-radius:50%; background:rgba(47,131,210,.25); right:-120px; top:-150px; filter:blur(2px); }
+    .dark h2, .dark h3 { color:white; }
+    .dark p { color:#c9d5e4; }
+    .steps { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-top:28px; position:relative; z-index:1; }
+    .step { padding:22px; border:1px solid rgba(255,255,255,.14); border-radius:20px; background:rgba(255,255,255,.05); }
+    .num { color:#7db7f0; font-weight:800; margin-bottom:14px; }
+    .about { display:grid; grid-template-columns:.9fr 1.1fr; gap:20px; align-items:stretch; }
+    .aboutLogo { display:grid; place-items:center; min-height:340px; }
+    .aboutLogo img { width:min(340px, 80%); }
+    .list { display:grid; gap:12px; margin-top:20px; }
+    .list div { display:flex; gap:10px; color:var(--muted); }
+    .check { flex:0 0 22px; width:22px; height:22px; border-radius:50%; background:var(--soft); color:var(--blue); display:grid; place-items:center; font-weight:900; font-size:13px; }
+    .contact { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+    .contactBox { background:white; border:1px solid var(--line); border-radius:28px; padding:30px; box-shadow:var(--shadow); }
+    .contactLink { display:flex; justify-content:space-between; align-items:center; gap:12px; padding:16px 0; border-bottom:1px solid var(--line); color:var(--navy); font-weight:700; }
+    .contactLink:last-child { border-bottom:0; }
+    .requestForm { display:grid; gap:14px; }
+    .formRow { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+    .field { display:grid; gap:7px; }
+    .field label { color:var(--navy); font-weight:800; font-size:14px; }
+    .field input, .field textarea { width:100%; border:1px solid var(--line); border-radius:14px; padding:13px 14px; font:inherit; color:var(--text); background:#fbfdff; outline:none; transition:border-color .18s ease, box-shadow .18s ease, background .18s ease; }
+    .field textarea { min-height:138px; resize:vertical; }
+    .field input:focus, .field textarea:focus { border-color:var(--blue2); box-shadow:0 0 0 4px rgba(47,131,210,.12); background:white; }
+    .requestForm.wasValidated .field input:invalid, .requestForm.wasValidated .field textarea:invalid { border-color:#d94b4b; box-shadow:0 0 0 4px rgba(217,75,75,.10); background:#fffafa; }
+    .errorText { min-height:18px; color:#b4232c; font-size:12px; font-weight:700; }
+    .formHint { margin:0; color:var(--muted); font-size:13px; }
+    .hiddenField { position:absolute; left:-9999px; opacity:0; pointer-events:none; }
+    details { background:white; border:1px solid var(--line); border-radius:18px; padding:18px 20px; }
+    details + details { margin-top:12px; }
+    summary { cursor:pointer; font-weight:800; color:var(--navy); }
+    details p { color:var(--muted); margin-bottom:0; }
+    footer { padding:54px 0 34px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+    .legalFooter { display:grid; gap:1px; margin-bottom:34px; }
+    .legalFooter .sectionHead { margin-bottom:12px; }
+    .foot { display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap; padding-top:24px; border-top:1px solid var(--line); }
+    @media (max-width:900px) { .heroGrid,.about,.contact { grid-template-columns:1fr; } .grid4,.grid3,.steps,.facts { grid-template-columns:1fr 1fr; } .visual { min-height:420px; } nav { display:none; } }
+    @media (max-width:700px) { .sectionHead { display:grid; gap:10px; } .sectionHead p { max-width:none; } .formRow { grid-template-columns:1fr; } }
+    @media (max-width:560px) { .grid4,.grid3,.steps,.facts { grid-template-columns:1fr; } .hero { padding-top:50px; } .dark { padding:28px; } .visual { min-height:auto; padding:22px; display:flex; flex-direction:column; gap:12px; } .visual:before { inset:16px; } .logoCard { width:min(260px, 100%); border-radius:24px; } .float { position:relative; z-index:1; display:block; width:100%; padding:14px; } .f1,.f2 { left:auto; right:auto; top:auto; bottom:auto; } .brand span { display:none; } }
+  </style>
+</head>
+<body id="top">
+  <header>
+    <div class="wrap nav">
+      <a href="#top" class="brand"><img src="assets/logo-icon.png" alt="Becher IT Systems Logo"><span>Becher IT Systems</span></a>
+      <nav>
+        <a href="#leistungen">Leistungen</a>
+        <a href="#ablauf">Ablauf</a>
+        <a href="#projekte">Lösungen</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <a class="btn secondary" href="#kontakt">Anfragen</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap heroGrid">
+        <div>
+          <span class="eyebrow"><span class="dot"></span> Webentwicklung, Software, Betrieb</span>
+          <h1>Webentwicklung & Softwarelösungen, technisch sauber umgesetzt.</h1>
+          <p class="lead">Becher IT Systems entwickelt Webseiten, Webanwendungen und Schnittstellen für Unternehmen in Pinneberg, Hamburg und deutschlandweit, verständlich geplant, sauber gebaut und langfristig nutzbar.</p>
+          <div class="actions">
+            <a class="btn" href="#kontakt">Projekt anfragen</a>
+            <a class="btn secondary" href="#leistungen">Leistungen ansehen</a>
+          </div>
+          <div class="facts">
+            <div class="fact"><strong>Web</strong><span>Webseiten und Frontends</span></div>
+            <div class="fact"><strong>Software</strong><span>Vollständige Individuelle Anwendungen</span></div>
+            <div class="fact"><strong>Betrieb</strong><span>Hosting und Wartung</span></div>
+          </div>
+        </div>
+        <div class="visual" aria-label="Becher IT Systems Logo Visual">
+          <div class="logoCard"><img src="assets/logo-full.png" alt="Becher IT Systems Bildmarke"></div>
+          <div class="float f1"><b>Design</b>Modernes, ansprechendes Design.</div>
+          <div class="float f2"><b>Responsive</b>Optimiert für alle Geräte.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="leistungen">
+      <div class="wrap">
+        <div class="sectionHead">
+          <h2>Leistungen</h2>
+          <p>Von der Unternehmenswebseite bis zur individuellen Webanwendung, mit Fokus auf Technik, Nutzerführung und zuverlässigem Betrieb.</p>
+        </div>
+        <div class="grid4">
+          <article class="card"><div class="icon">01</div><h3>Webentwicklung</h3><p>Moderne Webseiten, Landingpages und Unternehmensauftritte, schnell, responsiv und klar aufgebaut.</p></article>
+          <article class="card"><div class="icon">02</div><h3>Webanwendungen</h3><p>Individuelle Oberflächen, Portale und Tools für interne oder externe Nutzung.</p></article>
+          <article class="card"><div class="icon">03</div><h3>APIs & Systeme</h3><p>Schnittstellen, Backend Logik und Anbindung bestehender Dienste.</p></article>
+          <article class="card"><div class="icon">04</div><h3>Betrieb</h3><p>Hosting, Deployment, Wartung, Updates und technische Betreuung.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="ablauf">
+      <div class="wrap">
+        <div class="dark">
+          <h2>Strukturierter Ablauf</h2>
+          <p>Ein Projekt soll nicht komplizierter werden als nötig. Deshalb läuft die Zusammenarbeit transparent und nachvollziehbar.</p>
+          <div class="steps">
+            <div class="step"><div class="num">01</div><h3>Einordnung</h3><p>Ziel, Umfang und bestehende Anforderungen klären.</p></div>
+            <div class="step"><div class="num">02</div><h3>Konzept</h3><p>Struktur, Inhalte und technische Umsetzung festlegen.</p></div>
+            <div class="step"><div class="num">03</div><h3>Umsetzung</h3><p>Entwicklung, Abstimmung und saubere Auslieferung.</p></div>
+            <div class="step"><div class="num">04</div><h3>Betrieb</h3><p>Hosting, Pflege und Weiterentwicklung bei Bedarf.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projekte">
+      <div class="wrap">
+        <div class="sectionHead">
+          <h2>Lösungen</h2>
+          <p>Typische Projekte, die Becher IT Systems umsetzt oder technisch begleitet.</p>
+        </div>
+        <div class="grid3">
+          <article class="card"><h3>Unternehmenswebseite</h3><p>Professioneller Webauftritt mit klarer Struktur, Kontaktwegen und rechtlichen Pflichtangaben.</p></article>
+          <article class="card"><h3>Kundenportal</h3><p>Login Bereiche, Dokumente, Formulare und digitale Prozesse.</p></article>
+          <article class="card"><h3>Interne Anwendung</h3><p>Tools für Abläufe, Datenverwaltung oder Systemintegration.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="ueber">
+      <div class="wrap about">
+        <div class="card aboutLogo"><img src="assets/logo-full.png" alt="Becher IT Systems Logo"></div>
+        <div class="card">
+          <h2>Über Becher IT Systems</h2>
+          <p>Becher IT Systems aus Pinneberg entwickelt digitale Lösungen mit Fokus auf solide Technik, verständliche Kommunikation und langfristige Nutzbarkeit.</p>
+          <div class="list">
+            <div><span class="check">✓</span><span>Klare Umsetzung ohne unnötige Komplexität.</span></div>
+            <div><span class="check">✓</span><span>Saubere Darstellung auf Desktop, Tablet und Smartphone.</span></div>
+            <div><span class="check">✓</span><span>Transparente Einschätzung von Aufwand, Nutzen und Grenzen.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt">
+      <div class="wrap contact">
+        <div>
+          <h2>Projekt besprechen</h2>
+          <p class="lead">Sie haben ein neues Projekt oder benötigen Unterstützung bei einer bestehenden Anwendung? Schreiben Sie kurz, worum es geht.</p>
+        </div>
+        <div class="contactBox">
+          <form class="requestForm" action="https://formsubmit.co/info@becher-it.systems" method="POST" novalidate>
+            <input type="hidden" name="_subject" value="Neue Anfrage über becher-it.systems">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input class="hiddenField" type="text" name="_honey" tabindex="-1" autocomplete="off">
+            <div class="formRow">
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="Name" type="text" autocomplete="name" required>
+                <span class="errorText" aria-live="polite"></span>
+              </div>
+              <div class="field">
+                <label for="email">E-Mail</label>
+                <input id="email" name="E-Mail" type="email" autocomplete="email" required>
+                <span class="errorText" aria-live="polite"></span>
+              </div>
+            </div>
+            <div class="field">
+              <label for="phone">Telefon (optional)</label>
+              <input id="phone" name="Telefon" type="tel" autocomplete="tel">
+              <span class="errorText" aria-live="polite"></span>
+            </div>
+            <div class="field">
+              <label for="message">Worum geht es?</label>
+              <textarea id="message" name="Nachricht" required></textarea>
+              <span class="errorText" aria-live="polite"></span>
+            </div>
+            <button class="btn" type="submit">Anfrage absenden</button>
+            <p class="formHint">Die Anfrage wird per E-Mail an Becher IT Systems gesendet.</p>
+          </form>
+          <a class="contactLink" href="#impressum"><span>Impressum & Datenschutz</span><span>↓</span></a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div id="impressum" class="legalFooter">
+        <div class="sectionHead"><h3>Rechtliches</h3></div>
+        <details><summary>Impressum</summary><p><strong>Becher IT Systems</strong><br>Inhaber: Tim Becher<br>Adresse: An der Mühlenau 10c, 25421 Pinneberg<br>Deutschland<br>E-Mail: info@becher-it.systems<br>Telefon: +49 151 54881686</p></details>
+        <details><summary>Datenschutz</summary><p>Diese Webseite kann grundsätzlich ohne Angabe personenbezogener Daten besucht werden. Bei Nutzung des Anfrageformulars werden die eingegebenen Daten zur Bearbeitung der Anfrage verarbeitet und über den Dienst FormSubmit (formsubmit.co) per E-Mail übermittelt. Weitere Informationen: <a href="https://formsubmit.co/privacy.pdf">https://formsubmit.co/privacy.pdf</a>. Server-Logfiles können technisch notwendige Zugriffsdaten enthalten. Verantwortlich ist Becher IT Systems, Tim Becher.</p></details>
+        <details><summary>Haftung für Inhalte und Links</summary><p>Die Inhalte dieser Webseite wurden sorgfältig erstellt. Für Richtigkeit, Vollständigkeit und Aktualität wird keine Gewähr übernommen. Für externe Inhalte sind die jeweiligen Betreiber verantwortlich.</p></details>
+      </div>
+      <div class="foot"><span>© <span id="year"></span> Becher IT Systems</span><span>Webentwicklung, Softwarelösungen, Betrieb</span></div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const requestForm = document.querySelector('.requestForm');
+    const validationMessages = {
+      name: 'Bitte geben Sie Ihren Namen ein.',
+      email: 'Bitte geben Sie eine gültige E-Mail-Adresse ein.',
+      message: 'Bitte beschreiben Sie kurz Ihr Anliegen.'
+    };
+
+    function setFieldError(field) {
+      const error = field.closest('.field')?.querySelector('.errorText');
+      if (!error) return;
+      error.textContent = field.validity.valid ? '' : validationMessages[field.id] || '';
+    }
+
+    requestForm?.addEventListener('submit', (event) => {
+      requestForm.classList.add('wasValidated');
+      requestForm.querySelectorAll('input, textarea').forEach(setFieldError);
+
+      if (!requestForm.checkValidity()) {
+        event.preventDefault();
+        requestForm.querySelector(':invalid')?.focus();
+      }
+    });
+
+    requestForm?.querySelectorAll('input, textarea').forEach((field) => {
+      field.addEventListener('input', () => {
+        if (requestForm.classList.contains('wasValidated')) setFieldError(field);
+      });
+    });
+  </script>
+</body>
+</html>
