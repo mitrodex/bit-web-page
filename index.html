@@ -169,7 +169,7 @@
     .check { flex:0 0 22px; width:22px; height:22px; border-radius:50%; background:var(--soft); color:var(--blue); display:grid; place-items:center; font-weight:900; font-size:13px; }
     .contact { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
     .contactBox { background:white; border:1px solid var(--line); border-radius:28px; padding:30px; box-shadow:var(--shadow); }
-    .directContact { display:grid; gap:10px; margin-top:24px; }
+    .directContact { display:none; gap:10px; margin-top:24px; }
     .directContact p { margin:0; color:var(--muted); font-size:14px; }
     .directContact .btn { width:fit-content; }
     .contactLink { display:flex; justify-content:space-between; align-items:center; gap:12px; padding:16px 0; border-bottom:1px solid var(--line); color:var(--navy); font-weight:700; }
@@ -202,7 +202,7 @@
     .cookieBanner p { margin:0; color:var(--muted); font-size:14px; }
     .cookieActions { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:10px; margin-top:18px; }
     .cookieActions .btn { min-height:42px; box-shadow:none; cursor:pointer; }
-    @media (max-width:900px) { .heroGrid,.about,.contact { grid-template-columns:1fr; } .grid4,.grid3,.steps,.facts { grid-template-columns:1fr 1fr; } .visual { min-height:420px; } nav { display:none; } }
+    @media (max-width:900px) { .heroGrid,.about,.contact { grid-template-columns:1fr; } .grid4,.grid3,.steps,.facts { grid-template-columns:1fr 1fr; } .visual { min-height:420px; } nav { display:none; } .directContact { display:grid; } }
     @media (max-width:700px) { .sectionHead { display:grid; gap:10px; } .sectionHead p { max-width:none; } .formRow { grid-template-columns:1fr; } }
     @media (max-width:560px) { .grid4,.grid3,.steps,.facts { grid-template-columns:1fr; } .hero { padding-top:50px; } .dark { padding:28px; } .visual { min-height:auto; padding:22px; display:flex; flex-direction:column; gap:12px; } .visual:before { inset:16px; } .logoCard { width:min(260px, 100%); border-radius:24px; } .float { position:relative; z-index:1; display:block; width:100%; padding:14px; } .f1,.f2 { left:auto; right:auto; top:auto; bottom:auto; } .brand span { display:none; } }
   </style>
