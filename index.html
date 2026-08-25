@@ -13,7 +13,11 @@
     <meta name="theme-color" content="#0e2034" />
     <link rel="canonical" href="https://becher-it.systems/" />
     <link rel="alternate" hreflang="de-DE" href="https://becher-it.systems/" />
-    <link rel="alternate" hreflang="x-default" href="https://becher-it.systems/" />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://becher-it.systems/"
+    />
     <link rel="icon" href="assets/logo-icon-96.png" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="de_DE" />
@@ -266,14 +270,13 @@
         width: 680px;
         height: 680px;
         pointer-events: none;
-        background:
-          radial-gradient(
-            circle,
-            rgba(34, 211, 238, 0.22),
-            rgba(47, 131, 210, 0.12) 30%,
-            rgba(247, 185, 85, 0.06) 52%,
-            transparent 72%
-          );
+        background: radial-gradient(
+          circle,
+          rgba(34, 211, 238, 0.22),
+          rgba(47, 131, 210, 0.12) 30%,
+          rgba(247, 185, 85, 0.06) 52%,
+          transparent 72%
+        );
         mix-blend-mode: multiply;
         opacity: 0;
         transform: translate(-50%, -50%);
@@ -421,7 +424,12 @@
         height: 1px;
         left: -8vw;
         top: 18%;
-        background: linear-gradient(90deg, transparent, rgba(34, 211, 238, 0.55), transparent);
+        background: linear-gradient(
+          90deg,
+          transparent,
+          rgba(34, 211, 238, 0.55),
+          transparent
+        );
         box-shadow: 0 120px 0 rgba(47, 131, 210, 0.16);
         transform: rotate(-11deg);
         animation: driftLine 8s ease-in-out infinite;
@@ -431,7 +439,12 @@
         height: 1px;
         right: -10vw;
         bottom: 18%;
-        background: linear-gradient(90deg, transparent, rgba(247, 185, 85, 0.5), transparent);
+        background: linear-gradient(
+          90deg,
+          transparent,
+          rgba(247, 185, 85, 0.5),
+          transparent
+        );
         box-shadow: 0 -96px 0 rgba(34, 211, 238, 0.14);
         transform: rotate(9deg);
         animation: driftLine 10s ease-in-out infinite reverse;
@@ -470,8 +483,15 @@
         font-size: clamp(42px, 6vw, 72px);
         line-height: 0.98;
         letter-spacing: -0.06em;
+        padding-bottom: 12px;
+        margin-bottom: 8px;
         color: transparent;
-        background: linear-gradient(135deg, var(--navy) 20%, #1f64a6 62%, #14b8d4);
+        background: linear-gradient(
+          135deg,
+          var(--navy) 20%,
+          #1f64a6 62%,
+          #14b8d4
+        );
         -webkit-background-clip: text;
         background-clip: text;
       }
@@ -524,13 +544,15 @@
         min-height: 520px;
         border-radius: 34px;
         background:
-          linear-gradient(135deg, rgba(7, 18, 31, 0.98), rgba(14, 32, 52, 0.92)),
+          linear-gradient(
+            135deg,
+            rgba(7, 18, 31, 0.98),
+            rgba(14, 32, 52, 0.92)
+          ),
           linear-gradient(90deg, rgba(34, 211, 238, 0.14), transparent 42%),
           linear-gradient(255deg, rgba(247, 185, 85, 0.12), transparent 38%);
         border: 1px solid rgba(255, 255, 255, 0.24);
-        box-shadow:
-          var(--shadow),
-          var(--glow);
+        box-shadow: var(--shadow), var(--glow);
         padding: 34px;
         isolation: isolate;
         overflow: hidden;
@@ -544,8 +566,17 @@
         border-radius: inherit;
         background-image:
           linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px),
-          linear-gradient(115deg, transparent 0%, rgba(34, 211, 238, 0.16) 52%, transparent 72%);
+          linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.06) 1px,
+            transparent 1px
+          ),
+          linear-gradient(
+            115deg,
+            transparent 0%,
+            rgba(34, 211, 238, 0.16) 52%,
+            transparent 72%
+          );
         background-size:
           46px 46px,
           46px 46px,
@@ -573,7 +604,11 @@
         aspect-ratio: 1.08;
         border-radius: 28px;
         background:
-          linear-gradient(180deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.08)),
+          linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.18),
+            rgba(255, 255, 255, 0.08)
+          ),
           rgba(255, 255, 255, 0.08);
         backdrop-filter: blur(18px);
         display: grid;
@@ -744,8 +779,11 @@
         font-size: 14px;
       }
       .card {
-        background:
-          linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(247, 251, 255, 0.92));
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.96),
+          rgba(247, 251, 255, 0.92)
+        );
         border: 1px solid rgba(226, 232, 240, 0.95);
         border-radius: var(--radius);
         padding: 24px;
@@ -790,7 +828,11 @@
         width: 44px;
         height: 44px;
         border-radius: 14px;
-        background: linear-gradient(135deg, rgba(47, 131, 210, 0.16), rgba(34, 211, 238, 0.18));
+        background: linear-gradient(
+          135deg,
+          rgba(47, 131, 210, 0.16),
+          rgba(34, 211, 238, 0.18)
+        );
         display: grid;
         place-items: center;
         color: var(--blue);
@@ -830,7 +872,13 @@
           linear-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 1px),
           linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
         background-size: 44px 44px;
-        mask-image: linear-gradient(90deg, transparent, black 18%, black 82%, transparent);
+        mask-image: linear-gradient(
+          90deg,
+          transparent,
+          black 18%,
+          black 82%,
+          transparent
+        );
       }
       .dark h2,
       .dark h3 {
@@ -1283,9 +1331,7 @@
             width="96"
             height="96"
             alt="Becher IT Systems Logo"
-          /><span
-            >Becher IT Systems</span
-          ></a
+          /><span>Becher IT Systems</span></a
         >
         <nav>
           <a href="#leistungen">Leistungen</a>
@@ -1362,11 +1408,7 @@
             </p>
           </div>
           <div class="grid4">
-            <a
-              class="card serviceCard"
-              href="#preise"
-              data-target="#preise"
-            >
+            <a class="card serviceCard" href="#preise" data-target="#preise">
               <div class="icon">01</div>
               <h3>Webentwicklung</h3>
               <p>
@@ -1409,11 +1451,7 @@
                 Automatisierungen sinnvoll in bestehende Abläufe integrieren.
               </p>
             </a>
-            <a
-              class="card serviceCard"
-              href="#kontakt"
-              data-service="Betrieb"
-            >
+            <a class="card serviceCard" href="#kontakt" data-service="Betrieb">
               <div class="icon">05</div>
               <h3>Betrieb</h3>
               <p>
@@ -1459,13 +1497,17 @@
               <span class="priceLabel">Beliebt</span>
               <h3>Business Webseite</h3>
               <p>
-                Für Unternehmen, die mehr zeigen möchten als nur eine
-                Startseite und online mehr Vertrauen aufbauen wollen.
+                Für Unternehmen, die mehr zeigen möchten als nur eine Startseite
+                und online mehr Vertrauen aufbauen wollen.
               </p>
               <div class="price"><strong>800 €</strong><span>ab</span></div>
               <ul class="priceList">
-                <li>Mehrere Bereiche für Leistungen, Über uns, Galerie und Kontakt</li>
-                <li>Bildergalerie für Projekte, Räume, Produkte oder Referenzen</li>
+                <li>
+                  Mehrere Bereiche für Leistungen, Über uns, Galerie und Kontakt
+                </li>
+                <li>
+                  Bildergalerie für Projekte, Räume, Produkte oder Referenzen
+                </li>
                 <li>Vertrauensaufbau durch klare Inhalte und Kontaktwege</li>
               </ul>
               <a
@@ -1484,9 +1526,16 @@
               </p>
               <div class="price"><strong>1.400 €</strong><span>ab</span></div>
               <ul class="priceList">
-                <li>Ausführlichere Seitenstruktur mit mehr Raum für Ihr Angebot</li>
-                <li>Terminbuchung, erweiterte Formulare oder besondere Anfragewege</li>
-                <li>Aufbau passend zu Angebot, Zielgruppe und gewünschter Kundenanfrage</li>
+                <li>
+                  Ausführlichere Seitenstruktur mit mehr Raum für Ihr Angebot
+                </li>
+                <li>
+                  Terminbuchung, erweiterte Formulare oder besondere Anfragewege
+                </li>
+                <li>
+                  Aufbau passend zu Angebot, Zielgruppe und gewünschter
+                  Kundenanfrage
+                </li>
               </ul>
               <a
                 class="btn secondary priceAction"
@@ -1800,7 +1849,8 @@
         window.addEventListener("pointermove", (event) => {
           cursorX = event.clientX;
           cursorY = event.clientY;
-          if (!cursorFrame) cursorFrame = requestAnimationFrame(updateCursorGlow);
+          if (!cursorFrame)
+            cursorFrame = requestAnimationFrame(updateCursorGlow);
         });
       }
 
@@ -1871,9 +1921,18 @@
           text: "Eine Handwerksseite mit klaren Leistungen, Einsatzgebiet, Projektgalerie und direkter Anfrage für Besichtigung oder Angebot.",
           cta: "Angebot anfragen",
           tiles: [
-            ["Leistungen", "Sanierung, Reparatur, Montage und individuelle Arbeiten klar erklärt."],
-            ["Projektbilder", "Galerie mit Vorher-Nachher-Eindruck und echten Arbeitsbeispielen."],
-            ["Kontakt", "Telefon, Anfrageformular und Einsatzgebiet direkt auffindbar."],
+            [
+              "Leistungen",
+              "Sanierung, Reparatur, Montage und individuelle Arbeiten klar erklärt.",
+            ],
+            [
+              "Projektbilder",
+              "Galerie mit Vorher-Nachher-Eindruck und echten Arbeitsbeispielen.",
+            ],
+            [
+              "Kontakt",
+              "Telefon, Anfrageformular und Einsatzgebiet direkt auffindbar.",
+            ],
           ],
           footer: "Lokaler Betrieb · Projektgalerie · Schnelle Anfrage",
         },
@@ -1887,8 +1946,14 @@
           text: "Eine seriöse Seite mit Leistungsübersicht, Ablauf, Profilbereich und Termin- oder Erstgesprächsanfrage.",
           cta: "Termin anfragen",
           tiles: [
-            ["Angebot", "Leistungen verständlich beschrieben, ohne Fachsprache zu überladen."],
-            ["Profil", "Person, Haltung und Arbeitsweise sympathisch und glaubwürdig dargestellt."],
+            [
+              "Angebot",
+              "Leistungen verständlich beschrieben, ohne Fachsprache zu überladen.",
+            ],
+            [
+              "Profil",
+              "Person, Haltung und Arbeitsweise sympathisch und glaubwürdig dargestellt.",
+            ],
             ["Termin", "Klare Buchungs- oder Anfragewege für Erstgespräche."],
           ],
           footer: "Vertrauen · Terminbuchung · Klare Informationen",
@@ -1903,9 +1968,18 @@
           text: "Eine B2B-Webseite mit Nutzenargumenten, Prozess, Leistungsbereichen, Referenzflächen und qualifizierter Anfrage.",
           cta: "Erstgespräch starten",
           tiles: [
-            ["Nutzen", "Besucher verstehen schnell, welches Problem gelöst wird."],
-            ["Prozess", "Der Ablauf wird greifbar und senkt Hemmungen vor der Anfrage."],
-            ["Anfrage", "Das Formular fragt genau die Infos ab, die für ein Angebot wichtig sind."],
+            [
+              "Nutzen",
+              "Besucher verstehen schnell, welches Problem gelöst wird.",
+            ],
+            [
+              "Prozess",
+              "Der Ablauf wird greifbar und senkt Hemmungen vor der Anfrage.",
+            ],
+            [
+              "Anfrage",
+              "Das Formular fragt genau die Infos ab, die für ein Angebot wichtig sind.",
+            ],
           ],
           footer: "B2B · Lead-Qualifizierung · Professionelle Struktur",
         },
@@ -1919,9 +1993,18 @@
           text: "Eine visuelle Webseite mit Bildern, Angeboten, Öffnungs- oder Buchungsinformationen und schnellen Kontaktwegen.",
           cta: "Anfrage senden",
           tiles: [
-            ["Bilder", "Atmosphäre, Räume, Produkte oder Events groß und hochwertig zeigen."],
-            ["Infos", "Öffnungszeiten, Angebote, Preise oder Pakete schnell erfassbar."],
-            ["Buchung", "Reservierung, Anfrage oder Termin direkt aus der Seite heraus."],
+            [
+              "Bilder",
+              "Atmosphäre, Räume, Produkte oder Events groß und hochwertig zeigen.",
+            ],
+            [
+              "Infos",
+              "Öffnungszeiten, Angebote, Preise oder Pakete schnell erfassbar.",
+            ],
+            [
+              "Buchung",
+              "Reservierung, Anfrage oder Termin direkt aus der Seite heraus.",
+            ],
           ],
           footer: "Bilder · Buchung · Angebotsinformationen",
         },
