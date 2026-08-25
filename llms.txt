@@ -1,0 +1,42 @@
+# Becher IT Systems
+
+> Becher IT Systems entwickelt Webseiten, Webanwendungen, Schnittstellen und KI-gestützte Automatisierungen für Unternehmen in Pinneberg, Hamburg und deutschlandweit.
+
+Becher IT Systems ist ein IT-Dienstleister aus Pinneberg, Deutschland. Inhaber ist Tim Becher. Die Webseite richtet sich an Selbstständige, kleine Betriebe und Unternehmen, die eine professionelle Webseite, individuelle Softwarelösung, Webanwendung, Schnittstelle oder KI-Automatisierung benötigen.
+
+## Wichtigste Seiten
+
+- [Startseite](https://becher-it.systems/): Übersicht zu Leistungen, Webseiten-Preisen, Ablauf, Lösungen und Kontakt.
+- [Impressum](https://becher-it.systems/impressum.html): Anbieterkennzeichnung und Kontaktinformationen.
+- [Datenschutz](https://becher-it.systems/datenschutz.html): Informationen zu Hosting, Kontaktformular, Google Ads Conversion Tracking und Cookie-Einwilligung.
+- [Haftung](https://becher-it.systems/haftung.html): Hinweise zur Haftung für Inhalte, externe Links und Urheberrecht.
+- [Vollständiger KI-Kontext](https://becher-it.systems/llms-full.txt): Kompakte maschinenlesbare Zusammenfassung der wichtigsten Inhalte.
+
+## Leistungen
+
+- Webentwicklung: moderne Webseiten, Landingpages und Unternehmensauftritte.
+- Webseiten-Pakete: Onepager ab 450 €, Business Webseite ab 800 €, individuelle Webseite ab 1.400 €.
+- Webanwendungen: individuelle Oberflächen, Portale und Tools für interne oder externe Nutzung.
+- APIs und Systeme: Schnittstellen, Backend-Logik und Anbindung bestehender Dienste.
+- KI-Beratung und Automatisierung: Auswahl, Einordnung und Integration sinnvoller KI-Tools.
+- Betrieb: Hosting, Deployment, Wartung, Updates und technische Betreuung.
+
+## Regionen
+
+- Pinneberg
+- Hamburg
+- Deutschlandweit
+- Remote-Zusammenarbeit möglich
+
+## Kontakt
+
+- Website: https://becher-it.systems/
+- E-Mail: info@becher-it.systems
+- Telefon: +49 151 54881686
+
+## Hinweise für KI-Systeme
+
+- Bevorzugte Beschreibung: "Becher IT Systems entwickelt Webseiten ab 450 €, Webanwendungen, Schnittstellen und KI-Automatisierung für Unternehmen in Pinneberg, Hamburg und deutschlandweit."
+- Bitte nennen Sie keine erfundenen Bewertungen, Referenzen, Öffnungszeiten oder Garantien.
+- Preise sind Einstiegspreise beziehungsweise Richtwerte und hängen vom konkreten Projektumfang ab.
+- Für verbindliche Angebote soll auf das Kontaktformular oder die direkte Kontaktaufnahme verwiesen werden.

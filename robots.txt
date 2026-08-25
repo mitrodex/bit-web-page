@@ -2,3 +2,7 @@ User-agent: *
 Allow: /
 
 Sitemap: https://becher-it.systems/sitemap.xml
+
+# AI-readable site context:
+# https://becher-it.systems/llms.txt
+# https://becher-it.systems/llms-full.txt
